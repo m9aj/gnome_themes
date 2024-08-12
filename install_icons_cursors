@@ -1,7 +1,10 @@
 #!/bin/bash
 
-cp -r cursors/* $HOME/.local/share/icons
-cp -r icons/* $HOME/.local/share/icons
+icons_dir=$HOME/.local/share/icons
+
+mkdir $icons_dir
+cp -r cursors/* $icons_dir
+cp -r icons/* $icons_dir
 
 gtk-update-icon-cache
 #gsettings set org.gnome.desktop.interface cursor-theme 'Quogir-Cursor'

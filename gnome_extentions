@@ -10,4 +10,4 @@ firefox -new-tab "https://extensions.gnome.org/extension/307/dash-to-dock/"
 firefox -new-tab "https://extensions.gnome.org/extension/3193/blur-my-shell/"
 firefox -new-tab "https://extensions.gnome.org/extension/3960/transparent-top-bar-adjustable-transparency/"
 firefox -new-tab "https://extensions.gnome.org/extension/2236/night-theme-switcher/"
-
+firefox -new-tab "https://extensions.gnome.org/extension/5489/search-light/"
